@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta Parte 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <main>
+        <h2 class="subtitulo">Your Feed</h2>
+        <!--como no tiene item y es solo texto se ocupa el text-aling-->
+        <div class="contenedor1">
+            <div class="contenedor_izquierda">
+                <div class="foto_perfil">
+                    <img src="user-circle.png" alt="avatar imagen">
+                </div>
+                <a href="#">Add an avatar </a>
+                <h2>James Doe</h2>
+            </div>
+
+            <div class="contenedor_derecha">
+                <div class="publicaciones">
+                    <div class="fila_arriba">
+                        <h2>Some User</h2>
+                        <div class="like">
+                            <p><span id="numero_likes_1">0</span> like(s)</p>
+                            <button onclick="darLike('numero_likes_1')">Like</button>
+                        </div>
+                    </div>
+                    <div class="fila_abajo">
+                        <p>This is some filler text, it can say anything we like</p>
+                    </div>
+                </div>
+                <div class="publicaciones">
+                    <div class="fila_arriba">
+                        <h2>Some User</h2>
+                        <div class="like">
+                            <p><span id="numero_likes_2">0</span> like(s)</p>
+                            <button onclick="darLike('numero_likes_2')">Like</button>
+                        </div>
+                    </div>
+                    <div class="fila_abajo">
+                        <p>This is some filler text, it can say anything we like</p>
+                    </div>
+                </div>
+                <div class="publicaciones">
+                    <div class="fila_arriba">
+                        <h2>Some User</h2>
+                        <div class="like">
+                            <p><span id="numero_likes_3">0</span> like(s)</p>
+                            <button onclick="darLike('numero_likes_3')">Like</button>
+                        </div>
+                    </div>
+                    <div class="fila_abajo">
+                        <p>This is some filler text, it can say anything we like</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<script src="logic.js"></script>
+</body>
+
+
+</html>
